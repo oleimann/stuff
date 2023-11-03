@@ -1,0 +1,14 @@
+Output from: java MirrorSpeeds /H
+=================================
+[[java] MirrorSpeeds version 1.1 written by Olaf Leimann with GNU license
+Usage: java MirrorSpeeds [<options>] <SnapMirror-Logfile> [<SnapMirror-Logfile> ...]
+OPTIONS:
+        /D|/DEBUG       debug output on stderr
+        /LD|/LOGDEBUG   debug output on stdout
+        /H|/HELP        shows this output
+        /NF|/NOFAIL     skip failed operations
+        /XML|/AUDIT-MLOG        Use audit-mlog extract to add extra info to each update request
+
+Version history:
+-       v1.1 fixes "November logs"(*) and adds resume count.
+        *) a date/time calculation issue across month boundaries.
